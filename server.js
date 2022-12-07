@@ -32,12 +32,14 @@ const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
 
-server.use(jsonServer.rewriter({
-    '/api/*': '/$1',
-    '/blog/:resource/:id/show': '/:resource/:id'
-}))
+server.use((req, res, next) => {
+    if (req.path !== '/')
+        router.db.setState(clone(data))
+    next()
+})
+
 server.use(router)
-server.listen(3000, () => {
+server.listen(process.env.PORT || 8000, () => {
     console.log('JSON Server is running')
 })
 
