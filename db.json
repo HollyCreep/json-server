@@ -1,9 +1,704 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+clients: [
+{
+id: "b00edda",
+name: "Sr. Maicon Carmona Dominato",
+cpf: "268.470.086-95",
+birthdate: "1982-07-20",
+phone: "(31) 99987-0482"
+},
+{
+id: "2a53a14",
+name: "Sr. Alessandro Luis Santiago",
+cpf: "032.174.939-15",
+birthdate: "1977-09-23",
+phone: "(98) 95843-7346"
+},
+{
+id: "299107c",
+name: "Liz Eloá Rivera Filho",
+cpf: "372.351.561-47",
+birthdate: "1980-11-09",
+phone: "(84) 99742-6351"
+},
+{
+id: "b5f714a",
+name: "Leandro Vasques",
+cpf: "292.404.709-99",
+birthdate: "1992-06-15",
+phone: "(32) 93378-3198"
+},
+{
+id: "b3e1ea0",
+name: "Dr. Arthur Alonso Paz Filho",
+cpf: "137.003.285-40",
+birthdate: "1990-05-11",
+phone: "(75) 93081-6239"
+},
+{
+id: "d45549a",
+name: "Srta. Ayla Karina Mendes",
+cpf: "077.525.710-91",
+birthdate: "2000-08-12",
+phone: "(33) 93898-4853"
+},
+{
+id: "8adffc8",
+name: "Dr. Karen Ávila Uchoa Filho",
+cpf: "020.122.499-22",
+birthdate: "1985-08-25",
+phone: "(41) 99202-6479"
+},
+{
+id: "9cc1cc1",
+name: "Sra. Lívia Marília de Oliveira",
+cpf: "584.304.010-08",
+birthdate: "1982-01-31",
+phone: "(91) 97405-1985"
+},
+{
+id: "944a024",
+name: "Yohanna Noemi Grego",
+cpf: "867.299.023-45",
+birthdate: "1977-12-24",
+phone: "(64) 99740-5987"
+},
+{
+id: "f42167b",
+name: "Miguel Balestero Sobrinho",
+cpf: "686.191.189-51",
+birthdate: "1982-05-20",
+phone: "(61) 91914-3143"
+},
+{
+id: "96f0702",
+name: "Thiago Eduardo Fidalgo Sobrinho",
+cpf: "424.248.009-10",
+birthdate: "1988-10-14",
+phone: "(74) 98884-8366"
+},
+{
+id: "fc73521",
+name: "Srta. Diana da Cruz Faria",
+cpf: "186.117.405-56",
+birthdate: "1980-12-29",
+phone: "(69) 99942-8700"
+},
+{
+id: "cf338e3",
+name: "Luna Roque Torres",
+cpf: "508.264.806-32",
+birthdate: "1993-12-13",
+phone: "(13) 97639-7468"
+},
+{
+id: "1536dac",
+name: "Sr. Santiago de Aguiar Marés Filho",
+cpf: "595.895.737-62",
+birthdate: "1978-02-13",
+phone: "(17) 91920-3794"
+},
+{
+id: "ea6e419",
+name: "Dr. Diana Fonseca",
+cpf: "907.308.223-46",
+birthdate: "1998-05-04",
+phone: "(95) 94899-3864"
+},
+{
+id: "1f58672",
+name: "Stella Regina Salgado Jr.",
+cpf: "244.119.487-96",
+birthdate: "1981-10-05",
+phone: "(89) 90189-2409"
+},
+{
+id: "edc1e43",
+name: "Srta. Aline Santana Valência Sobrinho",
+cpf: "078.105.318-83",
+birthdate: "1983-02-18",
+phone: "(14) 93312-0402"
+},
+{
+id: "9deb81c",
+name: "Sandro Souza Cortês Filho",
+cpf: "017.111.710-77",
+birthdate: "1984-05-13",
+phone: "(89) 90939-6694"
+},
+{
+id: "9a8f7e3",
+name: "Sr. Ícaro Lucio Saito Sobrinho",
+cpf: "911.571.696-19",
+birthdate: "2003-01-26",
+phone: "(61) 94015-6437"
+},
+{
+id: "a94fc63",
+name: "Wellington Sanches Carvalho",
+cpf: "717.758.996-16",
+birthdate: "1997-11-18",
+phone: "(14) 90466-2810"
+},
+{
+id: "7005973",
+name: "Sra. Gisela das Dores",
+cpf: "430.861.442-20",
+birthdate: "1973-09-01",
+phone: "(41) 95020-9204"
+},
+{
+id: "d2d87ee",
+name: "Luis de Freitas Estrada",
+cpf: "460.020.005-50",
+birthdate: "1993-11-26",
+phone: "(66) 91559-8445"
+},
+{
+id: "19d197e",
+name: "Paloma Rayane Barros Filho",
+cpf: "902.348.144-54",
+birthdate: "1990-01-29",
+phone: "(84) 92238-1178"
+},
+{
+id: "687e189",
+name: "Dr. Christian Reinaldo Ferminiano Sobrinho",
+cpf: "599.600.933-10",
+birthdate: "1976-03-31",
+phone: "(54) 99832-9890"
+},
+{
+id: "90e7d72",
+name: "Leo de Arruda",
+cpf: "419.970.990-80",
+birthdate: "1983-03-28",
+phone: "(66) 92168-4290"
+},
+{
+id: "8fd4531",
+name: "Wesley Aranda",
+cpf: "875.042.990-65",
+birthdate: "2001-07-23",
+phone: "(15) 95107-8538"
+},
+{
+id: "18956b4",
+name: "Flávia Flávia Lovato Sobrinho",
+cpf: "505.661.353-37",
+birthdate: "1971-07-11",
+phone: "(79) 98758-6322"
+},
+{
+id: "611357f",
+name: "Márcio Bonilha",
+cpf: "427.884.101-90",
+birthdate: "1994-01-03",
+phone: "(42) 95245-1271"
+},
+{
+id: "22b6047",
+name: "Luana Beltrão Godói",
+cpf: "794.117.419-75",
+birthdate: "1982-06-11",
+phone: "(55) 96924-9824"
+},
+{
+id: "db2a526",
+name: "Mauro Delgado Estrada",
+cpf: "098.137.043-81",
+birthdate: "1998-08-13",
+phone: "(63) 95880-3139"
+},
+{
+id: "89eae76",
+name: "Dr. Catarina Toledo Neto",
+cpf: "263.280.683-60",
+birthdate: "1974-12-22",
+phone: "(32) 96837-5081"
+},
+{
+id: "0cf8d31",
+name: "Dr. Marta Lozano Paz",
+cpf: "910.999.417-33",
+birthdate: "1994-09-18",
+phone: "(43) 93089-8821"
+},
+{
+id: "f5338b3",
+name: "Dr. Bella Teles Delatorre Jr.",
+cpf: "806.510.402-99",
+birthdate: "1989-11-24",
+phone: "(21) 96322-8639"
+},
+{
+id: "2b70d8b",
+name: "Dr. Wagner Márcio Teles Filho",
+cpf: "312.620.523-27",
+birthdate: "2003-03-10",
+phone: "(62) 97909-0603"
+},
+{
+id: "16a5b64",
+name: "Sra. Helena Pereira Jr.",
+cpf: "422.095.947-58",
+birthdate: "1978-10-15",
+phone: "(27) 97047-9730"
+},
+{
+id: "8ad7f37",
+name: "Alessandra Luna Tamoio",
+cpf: "731.194.260-83",
+birthdate: "1985-12-15",
+phone: "(47) 99338-7700"
+},
+{
+id: "034c310",
+name: "Leandro Toledo",
+cpf: "620.582.700-02",
+birthdate: "1983-09-09",
+phone: "(79) 90233-6297"
+},
+{
+id: "1fc7ba5",
+name: "Sra. Daniella Tamoio",
+cpf: "775.684.418-14",
+birthdate: "1972-02-17",
+phone: "(82) 91900-1436"
+},
+{
+id: "9d87c0c",
+name: "Srta. Léia Vieira",
+cpf: "784.045.175-68",
+birthdate: "1989-12-30",
+phone: "(15) 99127-4798"
+},
+{
+id: "5f68738",
+name: "Sr. Thiago Demian Oliveira",
+cpf: "365.432.997-70",
+birthdate: "2002-05-11",
+phone: "(99) 96214-0763"
+},
+{
+id: "8739db2",
+name: "Adriano Marés Sobrinho",
+cpf: "242.763.622-37",
+birthdate: "1974-05-07",
+phone: "(87) 96286-5062"
+},
+{
+id: "52d16ec",
+name: "Dr. Robson Lutero Filho",
+cpf: "394.893.658-74",
+birthdate: "1972-05-07",
+phone: "(17) 91908-8258"
+},
+{
+id: "e1d89b1",
+name: "Dr. Igor Estrada Sobrinho",
+cpf: "968.580.309-99",
+birthdate: "1985-01-03",
+phone: "(43) 94755-5660"
+},
+{
+id: "d1722a3",
+name: "Dr. Adriel Rocha",
+cpf: "175.772.833-39",
+birthdate: "1971-02-18",
+phone: "(79) 93851-7660"
+},
+{
+id: "4b060bf",
+name: "Dr. Rosana Joyce Delatorre",
+cpf: "686.511.076-50",
+birthdate: "1986-03-07",
+phone: "(86) 91714-2173"
+},
+{
+id: "3db6d0c",
+name: "Sergio James Dias Jr.",
+cpf: "902.080.679-30",
+birthdate: "1999-01-06",
+phone: "(88) 98813-6191"
+},
+{
+id: "75ff0d1",
+name: "Sr. Wilson Casanova Sepúlveda",
+cpf: "666.548.821-72",
+birthdate: "1983-06-29",
+phone: "(21) 93428-3663"
+},
+{
+id: "c83cbad",
+name: "Dr. Moisés Vale Cervantes",
+cpf: "236.096.855-65",
+birthdate: "2001-08-25",
+phone: "(79) 92770-2894"
+},
+{
+id: "f74087f",
+name: "Dr. Ricardo Cezar Maldonado",
+cpf: "165.757.884-40",
+birthdate: "1979-11-05",
+phone: "(41) 99404-8002"
+},
+{
+id: "8586e93",
+name: "Letícia Carmona Paz",
+cpf: "241.098.876-82",
+birthdate: "1995-07-16",
+phone: "(38) 90950-8540"
+},
+{
+id: "7513c32",
+name: "Jorge Thales Padilha Jr.",
+cpf: "531.021.172-10",
+birthdate: "1984-10-12",
+phone: "(63) 92177-8671"
+},
+{
+id: "696cff8",
+name: "Dr. Rayane Deverso Verdara Filho",
+cpf: "331.303.064-55",
+birthdate: "1986-01-08",
+phone: "(65) 97657-0912"
+},
+{
+id: "dc3ad9d",
+name: "Giovane Montenegro",
+cpf: "667.986.915-36",
+birthdate: "1981-07-24",
+phone: "(47) 91047-7759"
+},
+{
+id: "4a316a0",
+name: "Dr. Arthur Lovato Jr.",
+cpf: "858.401.655-49",
+birthdate: "1991-01-06",
+phone: "(33) 94614-5815"
+},
+{
+id: "cc45b1b",
+name: "Srta. Sara Alves Dias",
+cpf: "769.742.533-54",
+birthdate: "1987-12-25",
+phone: "(17) 96612-8236"
+},
+{
+id: "22dc7d8",
+name: "Diana Pacheco Medina Filho",
+cpf: "955.819.401-85",
+birthdate: "1974-10-27",
+phone: "(48) 95402-0360"
+},
+{
+id: "1e777f6",
+name: "Sra. Miriam Dias Filho",
+cpf: "931.425.520-49",
+birthdate: "1997-10-25",
+phone: "(94) 93368-4486"
+},
+{
+id: "3ce256a",
+name: "Lucas Lira",
+cpf: "522.671.024-04",
+birthdate: "1997-09-11",
+phone: "(65) 92454-8963"
+},
+{
+id: "d8c8f56",
+name: "Sra. Agustina Cordeiro Jr.",
+cpf: "428.548.867-12",
+birthdate: "1996-07-21",
+phone: "(63) 93122-7041"
+},
+{
+id: "b8919c0",
+name: "Poliana Franciele Matos",
+cpf: "127.234.516-58",
+birthdate: "1970-05-08",
+phone: "(19) 93914-0995"
+},
+{
+id: "1232fbd",
+name: "Diana Karen de Arruda",
+cpf: "160.736.819-68",
+birthdate: "1986-09-25",
+phone: "(31) 91848-5749"
+},
+{
+id: "c3f8f03",
+name: "Thales Garcia",
+cpf: "284.255.474-40",
+birthdate: "2003-03-11",
+phone: "(17) 94264-4907"
+},
+{
+id: "4e1c78e",
+name: "Dr. Lucio Rivera Neto",
+cpf: "031.357.384-00",
+birthdate: "1976-03-21",
+phone: "(94) 96818-4579"
+},
+{
+id: "02f6d18",
+name: "Dr. Pedro Ortega Ortega Neto",
+cpf: "939.085.178-50",
+birthdate: "2001-04-14",
+phone: "(16) 94604-5757"
+},
+{
+id: "7200872",
+name: "Camilo de Oliveira",
+cpf: "075.658.806-55",
+birthdate: "1976-04-05",
+phone: "(27) 96586-5290"
+},
+{
+id: "6b7752c",
+name: "Joaquin Uchoa Filho",
+cpf: "858.083.649-22",
+birthdate: "1982-11-27",
+phone: "(77) 91588-2966"
+},
+{
+id: "6d3bde0",
+name: "Iasmin Bittencourt Neto",
+cpf: "691.935.209-56",
+birthdate: "1993-02-17",
+phone: "(12) 95443-4042"
+},
+{
+id: "54289e3",
+name: "Caio Aragão Jr.",
+cpf: "113.766.479-74",
+birthdate: "1980-10-02",
+phone: "(37) 91396-2074"
+},
+{
+id: "25e9232",
+name: "Simon Marés Dominato",
+cpf: "084.152.734-28",
+birthdate: "1975-06-29",
+phone: "(86) 98797-1925"
+},
+{
+id: "d07dd8c",
+name: "Dr. Pedro Santiago Zamana",
+cpf: "617.197.862-08",
+birthdate: "1977-08-07",
+phone: "(45) 96173-9081"
+},
+{
+id: "ebe4819",
+name: "Fabiana Jennifer Ferminiano",
+cpf: "108.226.956-50",
+birthdate: "1977-07-22",
+phone: "(11) 96733-1341"
+},
+{
+id: "00b8519",
+name: "Gustavo Simão das Dores",
+cpf: "245.961.666-09",
+birthdate: "2002-05-06",
+phone: "(31) 97357-5022"
+},
+{
+id: "87529e1",
+name: "Dr. Emiliano Bonilha Filho",
+cpf: "198.069.029-47",
+birthdate: "1986-07-11",
+phone: "(98) 90226-6683"
+},
+{
+id: "82e3764",
+name: "Sra. Melina Bezerra Salgado",
+cpf: "776.315.143-99",
+birthdate: "1979-06-14",
+phone: "(27) 98404-0939"
+},
+{
+id: "cdb84c5",
+name: "Sra. Clara Noemi Serra Neto",
+cpf: "482.167.799-76",
+birthdate: "1987-09-26",
+phone: "(45) 94338-2004"
+},
+{
+id: "68a5046",
+name: "Sr. Kléber Samuel Serrano Sobrinho",
+cpf: "358.058.604-14",
+birthdate: "1980-12-21",
+phone: "(13) 98999-5804"
+},
+{
+id: "95621d5",
+name: "Dr. Edilson Bittencourt",
+cpf: "287.489.112-67",
+birthdate: "1977-02-12",
+phone: "(95) 96725-7123"
+},
+{
+id: "6cc8ee9",
+name: "Dirce Brito Aragão",
+cpf: "559.466.750-44",
+birthdate: "1995-11-11",
+phone: "(14) 90434-5725"
+},
+{
+id: "f152a15",
+name: "Danilo Estrada Souza",
+cpf: "308.074.561-28",
+birthdate: "1979-12-04",
+phone: "(63) 91353-0006"
+},
+{
+id: "453714b",
+name: "Rafael Romero Martines Jr.",
+cpf: "396.353.668-33",
+birthdate: "1970-05-01",
+phone: "(55) 90939-6256"
+},
+{
+id: "1beea42",
+name: "Srta. Poliana Galhardo Arruda",
+cpf: "921.657.483-64",
+birthdate: "1999-12-19",
+phone: "(44) 91602-1757"
+},
+{
+id: "074806a",
+name: "Alana Malena Camacho Neto",
+cpf: "685.335.169-08",
+birthdate: "1989-12-14",
+phone: "(21) 99687-5465"
+},
+{
+id: "1cffb74",
+name: "Dr. Gustavo Delvalle",
+cpf: "726.086.026-06",
+birthdate: "2001-08-15",
+phone: "(33) 90777-6768"
+},
+{
+id: "c80da8c",
+name: "Demian Erik Carmona",
+cpf: "169.247.311-55",
+birthdate: "1976-09-26",
+phone: "(55) 93914-0071"
+},
+{
+id: "6876e1b",
+name: "Sra. Elaine Marin de Aguiar Sobrinho",
+cpf: "539.008.215-00",
+birthdate: "1997-04-02",
+phone: "(12) 97762-9101"
+},
+{
+id: "ed4541a",
+name: "Dr. Rogério Ortega Lira Neto",
+cpf: "510.643.099-25",
+birthdate: "2002-04-13",
+phone: "(46) 98728-8425"
+},
+{
+id: "534d1b8",
+name: "Giovanna Sandoval Sobrinho",
+cpf: "477.649.757-37",
+birthdate: "1992-10-09",
+phone: "(22) 96394-9225"
+},
+{
+id: "ca03e51",
+name: "Sr. Edilson Verdara Aragão Neto",
+cpf: "917.314.185-23",
+birthdate: "1997-07-29",
+phone: "(34) 98290-6962"
+},
+{
+id: "fe8f9bb",
+name: "Luzia Denise de Freitas",
+cpf: "010.335.066-72",
+birthdate: "1971-08-27",
+phone: "(75) 90213-3295"
+},
+{
+id: "b1d8c16",
+name: "Sr. Martinho Carmona Roque",
+cpf: "006.664.252-30",
+birthdate: "1977-04-29",
+phone: "(28) 93013-0535"
+},
+{
+id: "94b32d7",
+name: "Lorenzo Alcantara Filho",
+cpf: "270.074.684-89",
+birthdate: "1989-09-29",
+phone: "(79) 96426-0676"
+},
+{
+id: "127cc69",
+name: "Wagner Saito Faro",
+cpf: "555.742.990-54",
+birthdate: "1971-08-03",
+phone: "(88) 98378-0275"
+},
+{
+id: "8e1e96f",
+name: "Sr. Wesley Carmona Caldeira",
+cpf: "139.985.898-05",
+birthdate: "1982-11-21",
+phone: "(96) 94349-2130"
+},
+{
+id: "97d3d5a",
+name: "Fabrício Valdez Meireles",
+cpf: "031.862.219-00",
+birthdate: "1972-03-25",
+phone: "(42) 95791-6154"
+},
+{
+id: "259a034",
+name: "Srta. Giovana Romero",
+cpf: "361.503.532-14",
+birthdate: "1979-03-02",
+phone: "(14) 93339-8680"
+},
+{
+id: "a4b679b",
+name: "Betina Violeta Carrara Neto",
+cpf: "860.684.273-74",
+birthdate: "1986-11-28",
+phone: "(71) 99125-7150"
+},
+{
+id: "1623269",
+name: "Laiane Guerra",
+cpf: "007.632.294-74",
+birthdate: "1990-01-02",
+phone: "(15) 92016-0896"
+},
+{
+id: "eedaf06",
+name: "Srta. Cecília Benites",
+cpf: "278.748.933-87",
+birthdate: "1992-01-23",
+phone: "(73) 95899-9886"
+},
+{
+id: "9ca56a2",
+name: "Dr. Mari Cynthia Paes Filho",
+cpf: "906.799.290-96",
+birthdate: "2001-01-04",
+phone: "(54) 95017-8750"
+},
+{
+id: "4d1795a",
+name: "Sra. Mary Aranda Lourenço",
+cpf: "243.816.177-97",
+birthdate: "1975-04-06",
+phone: "(68) 93790-0115"
+}
+]
 }
